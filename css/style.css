@@ -1,0 +1,121 @@
+/* Обнуляючий стиль */
+
+@import "null.css";
+
+body {
+	margin: 0 0 0 20px;
+	font-size: 25px;
+}
+h1 {
+	font-size: 50px;
+	text-align: center;
+	padding: 20px 0px;
+	color: blue;
+	font-weight: 900;
+	background-color: black;
+	margin: 0 0 20px 0;
+}
+.list {
+	color: yellow;
+	background-color: green;
+	margin-bottom: 20px;
+	background-image: url(../img/image.jpg);
+}
+.paragraph {
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: aqua;
+	background-color: #185;
+}
+.block {
+	background-image: url(../img/cat1.gif);
+	min-height: 350px;
+	font-weight: 700;
+	color: red;
+}
+.block-2 {
+	background: rgb(131, 58, 180);
+	background: linear-gradient(
+		93deg,
+		rgba(131, 58, 180, 1) 0%,
+		rgba(29, 218, 253, 0.7374300061821604) 51%,
+		rgba(252, 176, 69, 1) 100%
+	);
+	color: white;
+	margin-bottom: 20px;
+}
+.block-3 {
+	background-image: url(../img/dog.bmp);
+	font-size: 17px;
+	color: coral;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+img {
+	display: block;
+	margin: 0 auto;
+}
+.last {
+	background-image: url(../img/sponge.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: aquamarine;
+	margin-bottom: 20px;
+}
+.list-2 {
+	background-image: url(../img/dog.bmp);
+	background-repeat: repeat-x;
+	font-weight: 700;
+	color: saddlebrown;
+	margin-bottom: 20px;
+}
+.last-2 {
+	display: block;
+	background-image: url(../img/cat2.jpg);
+	background-attachment: fixed;
+	color: greenyellow;
+	margin-bottom: 20px;
+}
+.block-4 {
+	background: blue url(../img/dog2.jpg);
+	background-repeat: repeat-y;
+	margin-bottom: 20px;
+	color: greenyellow;
+}
+.block-5 {
+	color: rosybrown;
+	background-image: url(../img/cat3.jfif);
+	background-repeat: round;
+	margin-bottom: 20px;
+}
+.block-6 {
+	color: royalblue;
+	margin-bottom: 20px;
+	background-image: url(../img/boy.webp);
+	background-repeat: space;
+}
+.block-7 {
+	margin-bottom: 20px;
+	color: tan;
+	background-image: url(../img/cat4.jpg);
+	background-size: contain;
+}
+.block-8 {
+	margin-bottom: 20px;
+	color: teal;
+	background-image: url(../img/cat5.jpg);
+	background-size: cover;
+}
+.block-9 {
+	margin-bottom: 20px;
+	color: thistle;
+	background-image: url(../img/cat6.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.block-10 {
+	margin-bottom: 20px;
+	color: tomato;
+	background-image: url(../img/cat7.jpeg), url(../img/cat.jpg);
+	background-repeat: no-repeat;
+}
